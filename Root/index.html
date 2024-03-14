@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+   <head>
+    <title>Pagina Principal </title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/index.css">
+   </head>
+
+   <body>
+    <header class="container">
+        <h1><img class="imagem_logo" src="./img/logo2.png" alt="Arthur"></h1>
+        <p class="carrinho"> Nenhum item no carrinho de compras </p>
+        <nav class="menu-opcoes">
+            <ul>
+                <li><a href="./index.html">Pagina Principal</a></li>
+                <li><a href="./content.html">Conteúdo</a></li>
+                <li><a href="./contact.html">Contato</a></li>
+                <li><a href="./blog.html">Blog</a></li>
+                
+            </ul>
+        </nav>
+    </header>
+    <section id="destaques">
+        <div class="container destaque">
+            <section class="busca">
+            
+                <h2>Busca</h2> 
+                <form action="https://www.google.com.br/search" id="form-busca">
+
+                    <input type="search" name="q" id="q">
+                    <input class="lupa" type="image" src="./img/lupa.png">
+                </form>
+            </section> <!-- fim .busca -->
+            <section class="menu-conteudo"> 
+                <h2>Menu</h2>
+                <nav>
+                    <ul>
+                        <li> <a href="#">Aula 1</a>
+                            <ul>
+                            <li><a href="#">Exercício 1</a></li>
+                            <li><a href="#">Exercício 2</a></li>
+                            <li><a href="#">Exercício 3</a></li>
+                            </ul>
+                            </li>
+                        <li><a href="#">Aula 2</a></li>
+                        
+                    </ul> 
+                </nav> 
+            </section><!-- fim .menu-conteudo -->
+            <img class="img_painel" src="img/adidas.png">
+            <div class="espacamento_botoes">
+                <a href="#"class="pause">Pause</a>
+                <a href="#"class="play">Play</a>
+            </div>
+        </div> <!-- fim .container .destaque -->
+        <div class="container paineis"> <!-- os paineis de pastas com aulas --> 
+            <section class="painel aula1">
+                <h2>Aula 1</h2>
+                <ol>
+                    <!-- primeiro exercicio -->
+                    <li> <a href="exercicio1..html">
+                            <figure>
+                                <img src="img/aula1/miniatura-aula.png">
+                                <figcaption>Exercicio 1 HTML</figcaption>
+                            </figure> 
+                        </a> 
+                    </li>
+                <!-- coloque mais exercicios aqui! -->
+                </ol>
+            </section>
+            <section class="painel aula2">
+                <h2>Aula 2</h2>
+                <ol> <!-- coloque vários exercicios aqui --></ol>
+            </section>
+        </div>
+    </section>
+    
+    <footer><!-- Conteúdo do rodapé --></footer>
+
+    <!--
+    <header id="id_header">
+
+        <h1></h1>
+        <a></a>
+
+        <div id="div_tabela_leganda">
+            <table class="tabela1"    >
+
+            </table>
+            <p id="id_p_legendatabela"></p>
+        </div>
+        <nav class="menu-botoes">botoes direito</nav>
+        <nav class="menu-botoes">botoes esquerdo </nav>
+    </header>
+    -->
+    <script src="js/home.js"></script>
+</body> 
+
+</html>
